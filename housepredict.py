@@ -72,7 +72,7 @@ df = user_features()
 
 st.write(df)
 #read in saved classification model
-model= pickle.load(open('linearreg.pkl','rb'))
+model= pickle.load(open('simplextra.pkl','rb'))
 #scalar = pickle.load(open('scaling1.pkl','rb'))
 
 #apply model
